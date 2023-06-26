@@ -1,0 +1,30 @@
+body {
+    background-color: #a3a8df;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #weather {
+    margin-top: 10px;
+  }

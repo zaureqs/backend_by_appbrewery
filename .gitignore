@@ -1,0 +1,16 @@
+01.intro-to-npm-package-manager/node_modules
+02.my-express-server/node_modules
+03.calculator/node_modules
+04.weatherapp/node_modules
+05.Newsletter-Signup/node_modules
+06.todolist-v1/node_modules
+06.todolist-v2/node_modules
+07.blog website/node_modules
+08.MongoDB with nodejs/node_modules
+09.introduction to mongoose/node_modules
+10.wiki-api/node_modules
+11.authentication and security/node_modules
+test/node_modules
+
+
+11.authentication and security/.env
