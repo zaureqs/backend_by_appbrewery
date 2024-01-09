@@ -7,7 +7,7 @@ const day = require(__dirname +"/getdate");
 
 
 const app = express();
-const PORT = 3000;
+const PORT = 3300;
 
 
 const uri = "mongodb://127.0.0.1:27017/todolistDB";

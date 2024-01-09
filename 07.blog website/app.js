@@ -118,11 +118,6 @@ app.get("/posts/:postId", async (req, res) => {
 
 
 
-
-
-
-
-
 async function findPosts() {
   // Retrieve all items from the database
   const items = await Post.find({});
@@ -132,6 +127,6 @@ async function findPosts() {
 
 
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
+app.listen(3300, function() {
+  console.log("Server started on port 3300");
 });

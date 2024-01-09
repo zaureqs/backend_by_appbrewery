@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
-const port = 3000
+const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname+"/index.html");
@@ -11,7 +11,6 @@ app.get('/', (req, res) => {
 
 app.post("/", function(req,res){
     res.send(" your ans is :" + (parseInt(req.body.num1)+parseInt(req.body.num2)));
-    console.log(req);
 });
 
 
